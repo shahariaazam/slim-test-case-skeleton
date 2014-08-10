@@ -1,6 +1,9 @@
 <?php
 class SampleTest extends SlimFrameworkTestCase
 {
+    /**
+     * THIS TEST IS BEING PASSED
+     */
     function testRouteGetRequest()
     {
         $this->get('/hello/shaharia');
